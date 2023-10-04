@@ -1,0 +1,267 @@
+2023-09-18 20:20:40,764 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-18 20:20:40,766 INFO supervisord started with pid 1
+2023-09-18 20:20:41,768 INFO spawned: 'laravel-queues' with pid 6
+2023-09-18 20:20:41,770 INFO spawned: 'nginx' with pid 7
+2023-09-18 20:20:41,772 INFO spawned: 'php-fpm' with pid 8
+2023-09-18 20:20:41,824 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:20:41,847 WARN exited: php-fpm (exit status 0; not expected)
+2023-09-18 20:20:42,849 INFO spawned: 'laravel-queues' with pid 24
+2023-09-18 20:20:42,850 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:20:42,851 INFO spawned: 'php-fpm' with pid 25
+2023-09-18 20:20:42,880 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:20:42,910 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-18 20:20:42,910 INFO reaped unknown pid 26 (exit status 78)
+2023-09-18 20:20:44,916 INFO spawned: 'laravel-queues' with pid 27
+2023-09-18 20:20:44,920 INFO spawned: 'php-fpm' with pid 28
+2023-09-18 20:20:44,960 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:20:44,988 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-18 20:20:44,988 INFO reaped unknown pid 29 (exit status 78)
+2023-09-18 20:20:47,996 INFO spawned: 'laravel-queues' with pid 30
+2023-09-18 20:20:47,999 INFO spawned: 'php-fpm' with pid 31
+2023-09-18 20:20:48,041 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:20:48,065 INFO gave up: laravel-queues entered FATAL state, too many start retries too quickly
+2023-09-18 20:20:48,068 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-18 20:20:48,068 INFO reaped unknown pid 32 (exit status 78)
+2023-09-18 20:20:49,069 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2023-09-18 20:22:55,214 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-18 20:22:55,216 INFO supervisord started with pid 1
+2023-09-18 20:22:56,218 INFO spawned: 'laravel-queues' with pid 7
+2023-09-18 20:22:56,219 INFO spawned: 'nginx' with pid 8
+2023-09-18 20:22:56,221 INFO spawned: 'php-fpm' with pid 9
+2023-09-18 20:22:56,240 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:22:57,274 INFO spawned: 'laravel-queues' with pid 25
+2023-09-18 20:22:57,274 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:22:57,274 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:22:57,274 INFO exited: php-fpm (exit status 0; expected)
+2023-09-18 20:22:57,295 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:22:59,301 INFO spawned: 'laravel-queues' with pid 26
+2023-09-18 20:22:59,340 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:23:02,348 INFO spawned: 'laravel-queues' with pid 27
+2023-09-18 20:23:02,398 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:23:03,399 INFO gave up: laravel-queues entered FATAL state, too many start retries too quickly
+2023-09-18 20:27:13,661 WARN received SIGQUIT indicating exit request
+2023-09-18 20:27:13,661 INFO waiting for nginx to die
+2023-09-18 20:27:14,671 INFO stopped: nginx (exit status 0)
+2023-09-18 20:27:15,588 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-18 20:27:15,590 INFO supervisord started with pid 1
+2023-09-18 20:27:16,595 INFO spawned: 'laravel-queues' with pid 7
+2023-09-18 20:27:16,600 INFO spawned: 'nginx' with pid 8
+2023-09-18 20:27:16,604 INFO spawned: 'php-fpm' with pid 9
+2023-09-18 20:27:16,645 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:27:17,676 INFO spawned: 'laravel-queues' with pid 25
+2023-09-18 20:27:17,677 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:27:17,677 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:27:17,678 INFO exited: php-fpm (exit status 0; expected)
+2023-09-18 20:27:17,717 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:27:19,723 INFO spawned: 'laravel-queues' with pid 26
+2023-09-18 20:27:19,771 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:27:22,778 INFO spawned: 'laravel-queues' with pid 27
+2023-09-18 20:27:22,823 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:27:23,825 INFO gave up: laravel-queues entered FATAL state, too many start retries too quickly
+2023-09-18 20:32:11,119 WARN received SIGQUIT indicating exit request
+2023-09-18 20:32:11,119 INFO waiting for nginx to die
+2023-09-18 20:32:12,127 INFO stopped: nginx (exit status 0)
+2023-09-18 20:32:13,017 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-18 20:32:13,019 INFO supervisord started with pid 1
+2023-09-18 20:32:14,023 INFO spawned: 'laravel-queues' with pid 7
+2023-09-18 20:32:14,028 INFO spawned: 'nginx' with pid 8
+2023-09-18 20:32:14,033 INFO spawned: 'php-fpm' with pid 9
+2023-09-18 20:32:15,103 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:32:15,103 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:32:15,104 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:32:15,104 INFO exited: php-fpm (exit status 0; expected)
+2023-09-18 20:32:27,118 WARN received SIGQUIT indicating exit request
+2023-09-18 20:32:27,118 INFO waiting for laravel-queues, nginx to die
+2023-09-18 20:32:28,126 INFO stopped: nginx (exit status 0)
+2023-09-18 20:32:28,134 WARN stopped: laravel-queues (terminated by SIGTERM)
+2023-09-18 21:01:28,973 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-18 21:01:28,975 INFO supervisord started with pid 7
+2023-09-18 21:01:29,979 INFO spawned: 'laravel-queues' with pid 8
+2023-09-18 21:01:29,982 INFO spawned: 'nginx' with pid 9
+2023-09-18 21:01:29,984 INFO spawned: 'php-fpm' with pid 10
+2023-09-18 21:01:31,055 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 21:01:31,055 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 21:01:31,055 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 21:01:31,055 INFO exited: php-fpm (exit status 0; expected)
+2023-09-19 08:54:33,040 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-19 08:54:33,043 INFO supervisord started with pid 7
+2023-09-19 08:54:34,046 INFO spawned: 'laravel-queues' with pid 8
+2023-09-19 08:54:34,049 INFO spawned: 'nginx' with pid 9
+2023-09-19 08:54:34,052 INFO spawned: 'php-fpm' with pid 10
+2023-09-19 08:54:35,137 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 08:54:35,137 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 08:54:35,137 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 08:54:35,138 INFO exited: php-fpm (exit status 0; expected)
+2023-09-19 10:32:46,750 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-19 10:32:46,751 INFO supervisord started with pid 7
+2023-09-19 10:32:47,756 INFO spawned: 'laravel-queues' with pid 8
+2023-09-19 10:32:47,761 INFO spawned: 'nginx' with pid 9
+2023-09-19 10:32:47,765 INFO spawned: 'php-fpm' with pid 10
+2023-09-19 10:32:48,853 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 10:32:48,853 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 10:32:48,853 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 10:32:48,853 INFO exited: php-fpm (exit status 0; expected)
+2023-09-19 11:42:17,122 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-19 11:42:17,124 INFO supervisord started with pid 7
+2023-09-19 11:42:18,126 INFO spawned: 'laravel-queues' with pid 8
+2023-09-19 11:42:18,129 INFO spawned: 'nginx' with pid 9
+2023-09-19 11:42:18,131 INFO spawned: 'php-fpm' with pid 10
+2023-09-19 11:42:19,208 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:42:19,209 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:42:19,209 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:42:19,209 INFO exited: php-fpm (exit status 0; expected)
+2023-09-19 11:44:28,134 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-19 11:44:28,136 INFO supervisord started with pid 7
+2023-09-19 11:44:29,141 INFO spawned: 'laravel-queues' with pid 8
+2023-09-19 11:44:29,146 INFO spawned: 'nginx' with pid 9
+2023-09-19 11:44:29,150 INFO spawned: 'php-fpm' with pid 10
+2023-09-19 11:44:29,256 WARN exited: php-fpm (exit status 0; not expected)
+2023-09-19 11:44:29,261 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:44:30,265 INFO spawned: 'laravel-queues' with pid 26
+2023-09-19 11:44:30,265 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:44:30,267 INFO spawned: 'php-fpm' with pid 27
+2023-09-19 11:44:30,331 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-19 11:44:30,393 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:44:32,398 INFO spawned: 'laravel-queues' with pid 29
+2023-09-19 11:44:32,403 INFO spawned: 'php-fpm' with pid 30
+2023-09-19 11:44:32,470 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-19 11:44:32,532 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:44:35,539 INFO spawned: 'laravel-queues' with pid 32
+2023-09-19 11:44:35,543 INFO spawned: 'php-fpm' with pid 33
+2023-09-19 11:44:35,618 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-19 11:44:35,673 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2023-09-19 11:44:35,679 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:44:36,680 INFO gave up: laravel-queues entered FATAL state, too many start retries too quickly
+2023-09-19 11:46:56,066 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-19 11:46:56,068 INFO supervisord started with pid 7
+2023-09-19 11:46:57,073 INFO spawned: 'laravel-queues' with pid 8
+2023-09-19 11:46:57,079 INFO spawned: 'nginx' with pid 9
+2023-09-19 11:46:57,083 INFO spawned: 'php-fpm' with pid 10
+2023-09-19 11:46:57,198 WARN exited: php-fpm (exit status 0; not expected)
+2023-09-19 11:46:57,204 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:46:58,209 INFO spawned: 'laravel-queues' with pid 26
+2023-09-19 11:46:58,211 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:46:58,215 INFO spawned: 'php-fpm' with pid 27
+2023-09-19 11:46:58,278 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-19 11:46:58,346 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:47:00,353 INFO spawned: 'laravel-queues' with pid 29
+2023-09-19 11:47:00,358 INFO spawned: 'php-fpm' with pid 30
+2023-09-19 11:47:00,419 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-19 11:47:00,482 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:47:03,489 INFO spawned: 'laravel-queues' with pid 32
+2023-09-19 11:47:03,493 INFO spawned: 'php-fpm' with pid 33
+2023-09-19 11:47:03,565 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-19 11:47:03,623 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2023-09-19 11:47:03,628 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:47:04,629 INFO gave up: laravel-queues entered FATAL state, too many start retries too quickly
+2023-09-19 11:51:17,607 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-19 11:51:17,609 INFO supervisord started with pid 7
+2023-09-19 11:51:18,613 INFO spawned: 'laravel-queues' with pid 16
+2023-09-19 11:51:18,618 INFO spawned: 'nginx' with pid 17
+2023-09-19 11:51:18,623 INFO spawned: 'php-fpm' with pid 18
+2023-09-19 11:51:19,692 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:51:19,692 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:51:19,692 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:51:19,692 INFO exited: php-fpm (exit status 0; expected)
+2023-09-20 12:39:15,658 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-20 12:39:15,711 INFO supervisord started with pid 7
+2023-09-20 12:39:16,715 INFO spawned: 'laravel-queues' with pid 8
+2023-09-20 12:39:16,720 INFO spawned: 'nginx' with pid 9
+2023-09-20 12:39:16,721 INFO spawned: 'php-fpm' with pid 10
+2023-09-20 12:39:18,533 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:39:18,534 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:39:18,534 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:39:18,534 INFO exited: php-fpm (exit status 0; expected)
+2023-09-20 12:41:19,682 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-20 12:41:19,684 INFO supervisord started with pid 7
+2023-09-20 12:41:20,689 INFO spawned: 'laravel-queues' with pid 8
+2023-09-20 12:41:20,694 INFO spawned: 'nginx' with pid 9
+2023-09-20 12:41:20,698 INFO spawned: 'php-fpm' with pid 10
+2023-09-20 12:41:21,769 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:41:21,769 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:41:21,769 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:41:21,769 INFO exited: php-fpm (exit status 0; expected)
+2023-09-20 12:45:46,213 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-20 12:45:46,215 INFO supervisord started with pid 7
+2023-09-20 12:45:47,220 INFO spawned: 'laravel-queues' with pid 8
+2023-09-20 12:45:47,225 INFO spawned: 'nginx' with pid 9
+2023-09-20 12:45:47,230 INFO spawned: 'php-fpm' with pid 10
+2023-09-20 12:45:48,303 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:45:48,303 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:45:48,303 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:45:48,303 INFO exited: php-fpm (exit status 0; expected)
+2023-09-21 11:23:10,917 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-21 11:23:10,919 INFO supervisord started with pid 7
+2023-09-21 11:23:11,921 INFO spawned: 'laravel-queues' with pid 8
+2023-09-21 11:23:11,923 INFO spawned: 'nginx' with pid 9
+2023-09-21 11:23:11,925 INFO spawned: 'php-fpm' with pid 10
+2023-09-21 11:23:12,980 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:23:12,980 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:23:12,980 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:23:12,980 INFO exited: php-fpm (exit status 0; expected)
+2023-09-21 11:24:43,828 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-21 11:24:43,830 INFO supervisord started with pid 7
+2023-09-21 11:24:44,833 INFO spawned: 'laravel-queues' with pid 8
+2023-09-21 11:24:44,834 INFO spawned: 'nginx' with pid 9
+2023-09-21 11:24:44,835 INFO spawned: 'php-fpm' with pid 10
+2023-09-21 11:24:45,876 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:24:45,876 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:24:45,876 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:24:45,876 INFO exited: php-fpm (exit status 0; expected)
+2023-09-21 11:37:21,350 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-21 11:37:21,351 INFO supervisord started with pid 7
+2023-09-21 11:37:22,356 INFO spawned: 'laravel-queues' with pid 8
+2023-09-21 11:37:22,361 INFO spawned: 'nginx' with pid 9
+2023-09-21 11:37:22,366 INFO spawned: 'php-fpm' with pid 10
+2023-09-21 11:37:23,433 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:37:23,433 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:37:23,434 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:37:23,434 INFO exited: php-fpm (exit status 0; expected)
+2023-09-22 10:23:52,105 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-22 10:23:52,108 INFO supervisord started with pid 7
+2023-09-22 10:23:53,111 INFO spawned: 'laravel-queues' with pid 8
+2023-09-22 10:23:53,113 INFO spawned: 'nginx' with pid 9
+2023-09-22 10:23:53,115 INFO spawned: 'php-fpm' with pid 10
+2023-09-22 10:23:54,171 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-22 10:23:54,171 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-22 10:23:54,171 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-22 10:23:54,171 INFO exited: php-fpm (exit status 0; expected)
+2023-09-25 18:08:19,830 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-25 18:08:19,834 INFO supervisord started with pid 8
+2023-09-25 18:08:20,838 INFO spawned: 'laravel-queues' with pid 9
+2023-09-25 18:08:20,841 INFO spawned: 'nginx' with pid 10
+2023-09-25 18:08:20,844 INFO spawned: 'php-fpm' with pid 11
+2023-09-25 18:08:22,113 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-25 18:08:22,113 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-25 18:08:22,113 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-25 18:08:22,114 INFO exited: php-fpm (exit status 0; expected)
+2023-10-03 23:38:04,876 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-03 23:38:04,877 INFO supervisord started with pid 7
+2023-10-03 23:38:05,882 INFO spawned: 'laravel-queues' with pid 8
+2023-10-03 23:38:05,886 INFO spawned: 'nginx' with pid 9
+2023-10-03 23:38:05,891 INFO spawned: 'php-fpm' with pid 10
+2023-10-03 23:38:05,948 WARN exited: laravel-queues (exit status 255; not expected)
+2023-10-03 23:38:06,965 INFO spawned: 'laravel-queues' with pid 26
+2023-10-03 23:38:06,966 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-03 23:38:06,966 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-03 23:38:06,967 INFO exited: php-fpm (exit status 0; expected)
+2023-10-03 23:38:07,032 WARN exited: laravel-queues (exit status 255; not expected)
+2023-10-03 23:38:09,037 INFO spawned: 'laravel-queues' with pid 27
+2023-10-03 23:38:09,099 WARN exited: laravel-queues (exit status 255; not expected)
+2023-10-03 23:38:12,106 INFO spawned: 'laravel-queues' with pid 28
+2023-10-03 23:38:12,133 WARN exited: laravel-queues (exit status 255; not expected)
+2023-10-03 23:38:13,134 INFO gave up: laravel-queues entered FATAL state, too many start retries too quickly
+2023-10-03 23:42:54,843 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-03 23:42:54,846 INFO supervisord started with pid 7
+2023-10-03 23:42:55,847 INFO spawned: 'nginx' with pid 8
+2023-10-03 23:42:55,848 INFO spawned: 'php-fpm' with pid 9
+2023-10-03 23:42:56,885 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-03 23:42:56,885 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-03 23:42:56,886 INFO exited: php-fpm (exit status 0; expected)
+2023-10-04 00:40:33,350 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-04 00:40:33,352 INFO supervisord started with pid 7
+2023-10-04 00:40:34,356 INFO spawned: 'nginx' with pid 8
+2023-10-04 00:40:34,361 INFO spawned: 'php-fpm' with pid 9
+2023-10-04 00:40:35,475 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-04 00:40:35,475 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-04 00:40:35,475 INFO exited: php-fpm (exit status 0; expected)

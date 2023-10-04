@@ -1,0 +1,56 @@
+version: '3'
+services:
+    # Микросервисы
+    laravel.client:
+        build:
+            context: ./client
+            dockerfile: Dockerfile
+        volumes:
+            - './client/src:/var/www/html'
+        command: sh -c "supervisord -c /etc/supervisor/conf.d/supervisord.conf"
+        environment:
+            - NAME=laravel.client
+        env_file:
+            - .env
+        extra_hosts:
+            - 'host.docker.internal:host-gateway'
+        networks:
+            - laravel_grpc_example
+
+    laravel.server:
+        build:
+            context: ./server
+            dockerfile: Dockerfile
+        volumes:
+            - './server/src:/var/www/html'
+        command: sh -c "supervisord -c /etc/supervisor/conf.d/supervisord.conf"
+        environment:
+            - NAME=laravel.client
+        env_file:
+            - .env
+        extra_hosts:
+            - 'host.docker.internal:host-gateway'
+        networks:
+            - laravel_grpc_example
+
+    # Роутер на основе nginx
+    nginx:
+        build:
+            context: ./dockers/nginx
+            dockerfile: Dockerfile
+        volumes:
+            - ./nginx.balance.conf:/etc/nginx/nginx.conf:ro
+            - ./volumes/nginx/log:/var/log/nginx
+        ports:
+            - "80:80"
+        depends_on:
+            - laravel.client
+            - laravel.server
+        extra_hosts:
+            - 'host.docker.internal:host-gateway'
+        networks:
+            - laravel_grpc_example
+
+networks:
+    laravel_grpc_example:
+        driver: bridge
