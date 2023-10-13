@@ -6,7 +6,7 @@ RUN apt-get update && apt-get install -y unzip
 
 
 # Установка PostgreSQL клиента и расширения PDO для PostgreSQL
-RUN apt-get update && apt-get install -y postgresql-client libpq-dev
+RUN apt install -y postgresql-client libpq-dev
 
 # Устанавливаем необходимые расширения PHP, включая pdo_pgsql
 RUN docker-php-ext-configure pgsql -with-pgsql=/usr/local/pgsql \
@@ -16,10 +16,16 @@ RUN docker-php-ext-configure pgsql -with-pgsql=/usr/local/pgsql \
 RUN pecl install redis && docker-php-ext-enable redis
 
 # Установка зависимостей gRPC и Protobuf
-RUN apt-get update && apt-get install -y git autoconf build-essential libtool curl automake libprotobuf-dev  protobuf-compiler
+RUN apt install -y git autoconf build-essential libtool curl automake libprotobuf-dev
+RUN apt install -y protobuf-compiler
+RUN apt install -y protobuf-compiler-grpc
 
 # Установка библиотеки gRPC для PHP
 RUN pecl install grpc && docker-php-ext-enable grpc
+RUN pecl install protobuf && docker-php-ext-enable protobuf
+
+# ext-sockets
+RUN docker-php-ext-install sockets
 
 # Устанавливаем рабочую директорию
 WORKDIR /var/www/html
@@ -30,6 +36,11 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 # Копирование и установка зависимостей PHP
 COPY ./src /var/www/html
 RUN composer install
+
+# Скачать необходимые зависимости для gRPC
+RUN ./vendor/bin/rr download-protoc-binary
+
+
 
 # Установить права на запись для файлов
 RUN chmod -R 777 /var/www/html/storage

@@ -1,5 +1,25 @@
 version: '3'
 services:
+
+    roadrunner.server:
+        build:
+            context: ./roadrunner
+            dockerfile: Dockerfile
+        volumes:
+            - './roadrunner/src:/var/www/html'
+        command: sh -c "supervisord -c /etc/supervisor/conf.d/supervisord.conf"
+        ports:
+            - "88:80"
+            - "9001:9001"
+        environment:
+            - NAME=roadrunner.server
+        env_file:
+            - .env
+        extra_hosts:
+            - 'host.docker.internal:host-gateway'
+        networks:
+            - laravel_grpc_example
+
     # Микросервисы
     laravel.client:
         build:
@@ -25,7 +45,7 @@ services:
             - './server/src:/var/www/html'
         command: sh -c "supervisord -c /etc/supervisor/conf.d/supervisord.conf"
         environment:
-            - NAME=laravel.client
+            - NAME=laravel.server
         env_file:
             - .env
         extra_hosts:
@@ -43,9 +63,9 @@ services:
             - ./volumes/nginx/log:/var/log/nginx
         ports:
             - "80:80"
-        depends_on:
-            - laravel.client
-            - laravel.server
+#        depends_on:
+#            - laravel.client
+#            - laravel.server
         extra_hosts:
             - 'host.docker.internal:host-gateway'
         networks:

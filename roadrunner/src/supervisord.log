@@ -1,0 +1,784 @@
+2023-09-18 20:20:40,764 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-18 20:20:40,766 INFO supervisord started with pid 1
+2023-09-18 20:20:41,768 INFO spawned: 'laravel-queues' with pid 6
+2023-09-18 20:20:41,770 INFO spawned: 'nginx' with pid 7
+2023-09-18 20:20:41,772 INFO spawned: 'php-fpm' with pid 8
+2023-09-18 20:20:41,824 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:20:41,847 WARN exited: php-fpm (exit status 0; not expected)
+2023-09-18 20:20:42,849 INFO spawned: 'laravel-queues' with pid 24
+2023-09-18 20:20:42,850 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:20:42,851 INFO spawned: 'php-fpm' with pid 25
+2023-09-18 20:20:42,880 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:20:42,910 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-18 20:20:42,910 INFO reaped unknown pid 26 (exit status 78)
+2023-09-18 20:20:44,916 INFO spawned: 'laravel-queues' with pid 27
+2023-09-18 20:20:44,920 INFO spawned: 'php-fpm' with pid 28
+2023-09-18 20:20:44,960 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:20:44,988 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-18 20:20:44,988 INFO reaped unknown pid 29 (exit status 78)
+2023-09-18 20:20:47,996 INFO spawned: 'laravel-queues' with pid 30
+2023-09-18 20:20:47,999 INFO spawned: 'php-fpm' with pid 31
+2023-09-18 20:20:48,041 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:20:48,065 INFO gave up: laravel-queues entered FATAL state, too many start retries too quickly
+2023-09-18 20:20:48,068 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-18 20:20:48,068 INFO reaped unknown pid 32 (exit status 78)
+2023-09-18 20:20:49,069 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2023-09-18 20:22:55,214 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-18 20:22:55,216 INFO supervisord started with pid 1
+2023-09-18 20:22:56,218 INFO spawned: 'laravel-queues' with pid 7
+2023-09-18 20:22:56,219 INFO spawned: 'nginx' with pid 8
+2023-09-18 20:22:56,221 INFO spawned: 'php-fpm' with pid 9
+2023-09-18 20:22:56,240 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:22:57,274 INFO spawned: 'laravel-queues' with pid 25
+2023-09-18 20:22:57,274 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:22:57,274 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:22:57,274 INFO exited: php-fpm (exit status 0; expected)
+2023-09-18 20:22:57,295 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:22:59,301 INFO spawned: 'laravel-queues' with pid 26
+2023-09-18 20:22:59,340 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:23:02,348 INFO spawned: 'laravel-queues' with pid 27
+2023-09-18 20:23:02,398 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:23:03,399 INFO gave up: laravel-queues entered FATAL state, too many start retries too quickly
+2023-09-18 20:27:13,661 WARN received SIGQUIT indicating exit request
+2023-09-18 20:27:13,661 INFO waiting for nginx to die
+2023-09-18 20:27:14,671 INFO stopped: nginx (exit status 0)
+2023-09-18 20:27:15,588 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-18 20:27:15,590 INFO supervisord started with pid 1
+2023-09-18 20:27:16,595 INFO spawned: 'laravel-queues' with pid 7
+2023-09-18 20:27:16,600 INFO spawned: 'nginx' with pid 8
+2023-09-18 20:27:16,604 INFO spawned: 'php-fpm' with pid 9
+2023-09-18 20:27:16,645 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:27:17,676 INFO spawned: 'laravel-queues' with pid 25
+2023-09-18 20:27:17,677 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:27:17,677 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:27:17,678 INFO exited: php-fpm (exit status 0; expected)
+2023-09-18 20:27:17,717 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:27:19,723 INFO spawned: 'laravel-queues' with pid 26
+2023-09-18 20:27:19,771 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:27:22,778 INFO spawned: 'laravel-queues' with pid 27
+2023-09-18 20:27:22,823 WARN exited: laravel-queues (exit status 255; not expected)
+2023-09-18 20:27:23,825 INFO gave up: laravel-queues entered FATAL state, too many start retries too quickly
+2023-09-18 20:32:11,119 WARN received SIGQUIT indicating exit request
+2023-09-18 20:32:11,119 INFO waiting for nginx to die
+2023-09-18 20:32:12,127 INFO stopped: nginx (exit status 0)
+2023-09-18 20:32:13,017 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-18 20:32:13,019 INFO supervisord started with pid 1
+2023-09-18 20:32:14,023 INFO spawned: 'laravel-queues' with pid 7
+2023-09-18 20:32:14,028 INFO spawned: 'nginx' with pid 8
+2023-09-18 20:32:14,033 INFO spawned: 'php-fpm' with pid 9
+2023-09-18 20:32:15,103 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:32:15,103 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:32:15,104 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 20:32:15,104 INFO exited: php-fpm (exit status 0; expected)
+2023-09-18 20:32:27,118 WARN received SIGQUIT indicating exit request
+2023-09-18 20:32:27,118 INFO waiting for laravel-queues, nginx to die
+2023-09-18 20:32:28,126 INFO stopped: nginx (exit status 0)
+2023-09-18 20:32:28,134 WARN stopped: laravel-queues (terminated by SIGTERM)
+2023-09-18 21:01:28,973 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-18 21:01:28,975 INFO supervisord started with pid 7
+2023-09-18 21:01:29,979 INFO spawned: 'laravel-queues' with pid 8
+2023-09-18 21:01:29,982 INFO spawned: 'nginx' with pid 9
+2023-09-18 21:01:29,984 INFO spawned: 'php-fpm' with pid 10
+2023-09-18 21:01:31,055 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 21:01:31,055 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 21:01:31,055 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-18 21:01:31,055 INFO exited: php-fpm (exit status 0; expected)
+2023-09-19 08:54:33,040 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-19 08:54:33,043 INFO supervisord started with pid 7
+2023-09-19 08:54:34,046 INFO spawned: 'laravel-queues' with pid 8
+2023-09-19 08:54:34,049 INFO spawned: 'nginx' with pid 9
+2023-09-19 08:54:34,052 INFO spawned: 'php-fpm' with pid 10
+2023-09-19 08:54:35,137 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 08:54:35,137 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 08:54:35,137 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 08:54:35,138 INFO exited: php-fpm (exit status 0; expected)
+2023-09-19 10:32:46,750 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-19 10:32:46,751 INFO supervisord started with pid 7
+2023-09-19 10:32:47,756 INFO spawned: 'laravel-queues' with pid 8
+2023-09-19 10:32:47,761 INFO spawned: 'nginx' with pid 9
+2023-09-19 10:32:47,765 INFO spawned: 'php-fpm' with pid 10
+2023-09-19 10:32:48,853 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 10:32:48,853 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 10:32:48,853 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 10:32:48,853 INFO exited: php-fpm (exit status 0; expected)
+2023-09-19 11:42:17,122 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-19 11:42:17,124 INFO supervisord started with pid 7
+2023-09-19 11:42:18,126 INFO spawned: 'laravel-queues' with pid 8
+2023-09-19 11:42:18,129 INFO spawned: 'nginx' with pid 9
+2023-09-19 11:42:18,131 INFO spawned: 'php-fpm' with pid 10
+2023-09-19 11:42:19,208 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:42:19,209 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:42:19,209 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:42:19,209 INFO exited: php-fpm (exit status 0; expected)
+2023-09-19 11:44:28,134 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-19 11:44:28,136 INFO supervisord started with pid 7
+2023-09-19 11:44:29,141 INFO spawned: 'laravel-queues' with pid 8
+2023-09-19 11:44:29,146 INFO spawned: 'nginx' with pid 9
+2023-09-19 11:44:29,150 INFO spawned: 'php-fpm' with pid 10
+2023-09-19 11:44:29,256 WARN exited: php-fpm (exit status 0; not expected)
+2023-09-19 11:44:29,261 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:44:30,265 INFO spawned: 'laravel-queues' with pid 26
+2023-09-19 11:44:30,265 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:44:30,267 INFO spawned: 'php-fpm' with pid 27
+2023-09-19 11:44:30,331 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-19 11:44:30,393 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:44:32,398 INFO spawned: 'laravel-queues' with pid 29
+2023-09-19 11:44:32,403 INFO spawned: 'php-fpm' with pid 30
+2023-09-19 11:44:32,470 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-19 11:44:32,532 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:44:35,539 INFO spawned: 'laravel-queues' with pid 32
+2023-09-19 11:44:35,543 INFO spawned: 'php-fpm' with pid 33
+2023-09-19 11:44:35,618 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-19 11:44:35,673 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2023-09-19 11:44:35,679 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:44:36,680 INFO gave up: laravel-queues entered FATAL state, too many start retries too quickly
+2023-09-19 11:46:56,066 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-19 11:46:56,068 INFO supervisord started with pid 7
+2023-09-19 11:46:57,073 INFO spawned: 'laravel-queues' with pid 8
+2023-09-19 11:46:57,079 INFO spawned: 'nginx' with pid 9
+2023-09-19 11:46:57,083 INFO spawned: 'php-fpm' with pid 10
+2023-09-19 11:46:57,198 WARN exited: php-fpm (exit status 0; not expected)
+2023-09-19 11:46:57,204 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:46:58,209 INFO spawned: 'laravel-queues' with pid 26
+2023-09-19 11:46:58,211 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:46:58,215 INFO spawned: 'php-fpm' with pid 27
+2023-09-19 11:46:58,278 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-19 11:46:58,346 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:47:00,353 INFO spawned: 'laravel-queues' with pid 29
+2023-09-19 11:47:00,358 INFO spawned: 'php-fpm' with pid 30
+2023-09-19 11:47:00,419 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-19 11:47:00,482 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:47:03,489 INFO spawned: 'laravel-queues' with pid 32
+2023-09-19 11:47:03,493 INFO spawned: 'php-fpm' with pid 33
+2023-09-19 11:47:03,565 WARN exited: php-fpm (exit status 70; not expected)
+2023-09-19 11:47:03,623 INFO gave up: php-fpm entered FATAL state, too many start retries too quickly
+2023-09-19 11:47:03,628 WARN exited: laravel-queues (exit status 1; not expected)
+2023-09-19 11:47:04,629 INFO gave up: laravel-queues entered FATAL state, too many start retries too quickly
+2023-09-19 11:51:17,607 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-19 11:51:17,609 INFO supervisord started with pid 7
+2023-09-19 11:51:18,613 INFO spawned: 'laravel-queues' with pid 16
+2023-09-19 11:51:18,618 INFO spawned: 'nginx' with pid 17
+2023-09-19 11:51:18,623 INFO spawned: 'php-fpm' with pid 18
+2023-09-19 11:51:19,692 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:51:19,692 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:51:19,692 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-19 11:51:19,692 INFO exited: php-fpm (exit status 0; expected)
+2023-09-20 12:39:15,658 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-20 12:39:15,711 INFO supervisord started with pid 7
+2023-09-20 12:39:16,715 INFO spawned: 'laravel-queues' with pid 8
+2023-09-20 12:39:16,720 INFO spawned: 'nginx' with pid 9
+2023-09-20 12:39:16,721 INFO spawned: 'php-fpm' with pid 10
+2023-09-20 12:39:18,533 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:39:18,534 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:39:18,534 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:39:18,534 INFO exited: php-fpm (exit status 0; expected)
+2023-09-20 12:41:19,682 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-20 12:41:19,684 INFO supervisord started with pid 7
+2023-09-20 12:41:20,689 INFO spawned: 'laravel-queues' with pid 8
+2023-09-20 12:41:20,694 INFO spawned: 'nginx' with pid 9
+2023-09-20 12:41:20,698 INFO spawned: 'php-fpm' with pid 10
+2023-09-20 12:41:21,769 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:41:21,769 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:41:21,769 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:41:21,769 INFO exited: php-fpm (exit status 0; expected)
+2023-09-20 12:45:46,213 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-20 12:45:46,215 INFO supervisord started with pid 7
+2023-09-20 12:45:47,220 INFO spawned: 'laravel-queues' with pid 8
+2023-09-20 12:45:47,225 INFO spawned: 'nginx' with pid 9
+2023-09-20 12:45:47,230 INFO spawned: 'php-fpm' with pid 10
+2023-09-20 12:45:48,303 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:45:48,303 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:45:48,303 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-20 12:45:48,303 INFO exited: php-fpm (exit status 0; expected)
+2023-09-21 11:23:10,917 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-21 11:23:10,919 INFO supervisord started with pid 7
+2023-09-21 11:23:11,921 INFO spawned: 'laravel-queues' with pid 8
+2023-09-21 11:23:11,923 INFO spawned: 'nginx' with pid 9
+2023-09-21 11:23:11,925 INFO spawned: 'php-fpm' with pid 10
+2023-09-21 11:23:12,980 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:23:12,980 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:23:12,980 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:23:12,980 INFO exited: php-fpm (exit status 0; expected)
+2023-09-21 11:24:43,828 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-21 11:24:43,830 INFO supervisord started with pid 7
+2023-09-21 11:24:44,833 INFO spawned: 'laravel-queues' with pid 8
+2023-09-21 11:24:44,834 INFO spawned: 'nginx' with pid 9
+2023-09-21 11:24:44,835 INFO spawned: 'php-fpm' with pid 10
+2023-09-21 11:24:45,876 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:24:45,876 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:24:45,876 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:24:45,876 INFO exited: php-fpm (exit status 0; expected)
+2023-09-21 11:37:21,350 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-21 11:37:21,351 INFO supervisord started with pid 7
+2023-09-21 11:37:22,356 INFO spawned: 'laravel-queues' with pid 8
+2023-09-21 11:37:22,361 INFO spawned: 'nginx' with pid 9
+2023-09-21 11:37:22,366 INFO spawned: 'php-fpm' with pid 10
+2023-09-21 11:37:23,433 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:37:23,433 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:37:23,434 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-21 11:37:23,434 INFO exited: php-fpm (exit status 0; expected)
+2023-09-22 10:23:52,105 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-22 10:23:52,108 INFO supervisord started with pid 7
+2023-09-22 10:23:53,111 INFO spawned: 'laravel-queues' with pid 8
+2023-09-22 10:23:53,113 INFO spawned: 'nginx' with pid 9
+2023-09-22 10:23:53,115 INFO spawned: 'php-fpm' with pid 10
+2023-09-22 10:23:54,171 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-22 10:23:54,171 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-22 10:23:54,171 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-22 10:23:54,171 INFO exited: php-fpm (exit status 0; expected)
+2023-09-25 18:08:19,830 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-09-25 18:08:19,834 INFO supervisord started with pid 8
+2023-09-25 18:08:20,838 INFO spawned: 'laravel-queues' with pid 9
+2023-09-25 18:08:20,841 INFO spawned: 'nginx' with pid 10
+2023-09-25 18:08:20,844 INFO spawned: 'php-fpm' with pid 11
+2023-09-25 18:08:22,113 INFO success: laravel-queues entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-25 18:08:22,113 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-25 18:08:22,113 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-09-25 18:08:22,114 INFO exited: php-fpm (exit status 0; expected)
+2023-10-03 23:38:04,876 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-03 23:38:04,877 INFO supervisord started with pid 7
+2023-10-03 23:38:05,882 INFO spawned: 'laravel-queues' with pid 8
+2023-10-03 23:38:05,886 INFO spawned: 'nginx' with pid 9
+2023-10-03 23:38:05,891 INFO spawned: 'php-fpm' with pid 10
+2023-10-03 23:38:05,948 WARN exited: laravel-queues (exit status 255; not expected)
+2023-10-03 23:38:06,965 INFO spawned: 'laravel-queues' with pid 26
+2023-10-03 23:38:06,966 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-03 23:38:06,966 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-03 23:38:06,967 INFO exited: php-fpm (exit status 0; expected)
+2023-10-03 23:38:07,032 WARN exited: laravel-queues (exit status 255; not expected)
+2023-10-03 23:38:09,037 INFO spawned: 'laravel-queues' with pid 27
+2023-10-03 23:38:09,099 WARN exited: laravel-queues (exit status 255; not expected)
+2023-10-03 23:38:12,106 INFO spawned: 'laravel-queues' with pid 28
+2023-10-03 23:38:12,133 WARN exited: laravel-queues (exit status 255; not expected)
+2023-10-03 23:38:13,134 INFO gave up: laravel-queues entered FATAL state, too many start retries too quickly
+2023-10-03 23:42:54,843 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-03 23:42:54,846 INFO supervisord started with pid 7
+2023-10-03 23:42:55,847 INFO spawned: 'nginx' with pid 8
+2023-10-03 23:42:55,848 INFO spawned: 'php-fpm' with pid 9
+2023-10-03 23:42:56,885 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-03 23:42:56,885 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-03 23:42:56,886 INFO exited: php-fpm (exit status 0; expected)
+2023-10-04 00:40:33,350 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-04 00:40:33,352 INFO supervisord started with pid 7
+2023-10-04 00:40:34,356 INFO spawned: 'nginx' with pid 8
+2023-10-04 00:40:34,361 INFO spawned: 'php-fpm' with pid 9
+2023-10-04 00:40:35,475 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-04 00:40:35,475 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-04 00:40:35,475 INFO exited: php-fpm (exit status 0; expected)
+2023-10-05 16:40:19,616 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-05 16:40:19,622 INFO supervisord started with pid 7
+2023-10-05 16:40:20,625 INFO spawned: 'nginx' with pid 8
+2023-10-05 16:40:20,628 INFO spawned: 'php-fpm' with pid 9
+2023-10-05 16:40:21,712 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-05 16:40:21,713 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-05 16:40:21,713 INFO exited: php-fpm (exit status 0; expected)
+2023-10-05 16:41:10,976 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-05 16:41:10,977 INFO supervisord started with pid 7
+2023-10-05 16:41:11,980 INFO spawned: 'nginx' with pid 8
+2023-10-05 16:41:11,982 INFO spawned: 'php-fpm' with pid 9
+2023-10-05 16:41:13,020 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-05 16:41:13,020 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-05 16:41:13,020 INFO exited: php-fpm (exit status 0; expected)
+2023-10-05 16:41:48,921 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-05 16:41:48,922 INFO supervisord started with pid 7
+2023-10-05 16:41:49,927 INFO spawned: 'nginx' with pid 8
+2023-10-05 16:41:49,929 INFO spawned: 'php-fpm' with pid 9
+2023-10-05 16:41:50,967 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-05 16:41:50,968 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-05 16:41:50,968 INFO exited: php-fpm (exit status 0; expected)
+2023-10-05 16:44:05,791 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-05 16:44:05,793 INFO supervisord started with pid 7
+2023-10-05 16:44:06,798 INFO spawned: 'nginx' with pid 8
+2023-10-05 16:44:06,802 INFO spawned: 'php-fpm' with pid 9
+2023-10-05 16:44:07,877 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-05 16:44:07,877 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-05 16:44:07,877 INFO exited: php-fpm (exit status 0; expected)
+2023-10-05 17:23:13,135 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-05 17:23:13,136 INFO supervisord started with pid 7
+2023-10-05 17:23:14,141 INFO spawned: 'nginx' with pid 8
+2023-10-05 17:23:14,146 INFO spawned: 'php-fpm' with pid 9
+2023-10-05 17:23:15,220 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-05 17:23:15,221 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-05 17:23:15,221 INFO exited: php-fpm (exit status 0; expected)
+2023-10-05 17:36:57,878 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-05 17:36:57,880 INFO supervisord started with pid 7
+2023-10-05 17:36:58,885 INFO spawned: 'nginx' with pid 8
+2023-10-05 17:36:58,891 INFO spawned: 'php-fpm' with pid 9
+2023-10-05 17:36:59,963 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-05 17:36:59,963 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-05 17:36:59,963 INFO exited: php-fpm (exit status 0; expected)
+2023-10-12 10:03:10,872 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-12 10:03:10,875 INFO supervisord started with pid 7
+2023-10-12 10:03:11,877 INFO spawned: 'nginx' with pid 8
+2023-10-12 10:03:11,879 INFO spawned: 'php-fpm' with pid 9
+2023-10-12 10:03:13,754 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 10:03:13,754 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 10:03:13,754 INFO exited: php-fpm (exit status 0; expected)
+2023-10-12 10:17:35,936 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-12 10:17:35,938 INFO supervisord started with pid 7
+2023-10-12 10:17:36,942 INFO spawned: 'nginx' with pid 8
+2023-10-12 10:17:36,947 INFO spawned: 'php-fpm' with pid 9
+2023-10-12 10:17:38,023 INFO success: nginx entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 10:17:38,023 INFO success: php-fpm entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 10:17:38,024 INFO exited: php-fpm (exit status 0; expected)
+2023-10-12 14:40:31,957 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-12 14:40:31,958 INFO supervisord started with pid 7
+2023-10-12 14:48:51,631 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-12 14:48:51,632 INFO supervisord started with pid 7
+2023-10-12 15:18:43,904 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-12 15:18:43,904 INFO supervisord started with pid 7
+2023-10-12 16:11:26,603 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-12 16:11:26,604 INFO supervisord started with pid 7
+2023-10-12 16:11:27,606 INFO spawned: 'rr-server' with pid 8
+2023-10-12 16:11:28,872 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:12:28,633 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:12:29,635 INFO spawned: 'rr-server' with pid 96
+2023-10-12 16:12:30,870 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:13:30,681 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:13:31,685 INFO spawned: 'rr-server' with pid 184
+2023-10-12 16:13:32,924 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:14:32,716 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:14:33,718 INFO spawned: 'rr-server' with pid 272
+2023-10-12 16:14:34,952 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:15:34,745 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:15:35,747 INFO spawned: 'rr-server' with pid 360
+2023-10-12 16:15:36,961 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:16:36,777 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:16:37,780 INFO spawned: 'rr-server' with pid 449
+2023-10-12 16:16:38,976 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:17:38,819 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:17:39,823 INFO spawned: 'rr-server' with pid 537
+2023-10-12 16:17:41,038 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:18:40,866 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:18:41,870 INFO spawned: 'rr-server' with pid 626
+2023-10-12 16:18:43,076 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:19:42,943 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:19:43,948 INFO spawned: 'rr-server' with pid 714
+2023-10-12 16:19:45,183 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:20:45,025 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:20:46,027 INFO spawned: 'rr-server' with pid 802
+2023-10-12 16:20:47,276 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:21:47,073 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:21:48,077 INFO spawned: 'rr-server' with pid 890
+2023-10-12 16:21:49,321 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:22:49,145 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:22:50,149 INFO spawned: 'rr-server' with pid 978
+2023-10-12 16:22:51,433 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:23:51,205 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:23:52,208 INFO spawned: 'rr-server' with pid 1066
+2023-10-12 16:23:53,462 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:24:53,273 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:24:54,277 INFO spawned: 'rr-server' with pid 1154
+2023-10-12 16:24:55,570 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:25:55,354 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:25:56,358 INFO spawned: 'rr-server' with pid 1242
+2023-10-12 16:25:57,632 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:26:57,434 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:26:58,438 INFO spawned: 'rr-server' with pid 1330
+2023-10-12 16:26:59,654 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:27:59,478 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:28:00,481 INFO spawned: 'rr-server' with pid 1419
+2023-10-12 16:28:01,697 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:29:01,546 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:29:02,551 INFO spawned: 'rr-server' with pid 1507
+2023-10-12 16:29:03,797 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:30:03,643 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:30:04,647 INFO spawned: 'rr-server' with pid 1595
+2023-10-12 16:30:05,907 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:31:05,699 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:31:06,701 INFO spawned: 'rr-server' with pid 1683
+2023-10-12 16:31:07,914 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:32:07,733 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:32:08,737 INFO spawned: 'rr-server' with pid 1771
+2023-10-12 16:32:10,059 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:33:09,804 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:33:10,808 INFO spawned: 'rr-server' with pid 1859
+2023-10-12 16:33:12,137 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:34:11,872 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:34:12,876 INFO spawned: 'rr-server' with pid 1947
+2023-10-12 16:34:14,122 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:35:13,952 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:35:14,956 INFO spawned: 'rr-server' with pid 2035
+2023-10-12 16:35:16,185 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:36:16,025 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:36:17,027 INFO spawned: 'rr-server' with pid 2123
+2023-10-12 16:36:18,251 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:37:18,060 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:37:19,064 INFO spawned: 'rr-server' with pid 2211
+2023-10-12 16:37:20,321 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:38:20,123 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:38:21,127 INFO spawned: 'rr-server' with pid 2299
+2023-10-12 16:38:22,363 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:39:22,186 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:39:23,190 INFO spawned: 'rr-server' with pid 2387
+2023-10-12 16:39:24,532 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:40:24,272 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:40:25,276 INFO spawned: 'rr-server' with pid 2475
+2023-10-12 16:40:26,536 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:41:26,359 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:41:27,364 INFO spawned: 'rr-server' with pid 2563
+2023-10-12 16:41:28,661 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:42:28,422 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:42:29,426 INFO spawned: 'rr-server' with pid 2651
+2023-10-12 16:42:30,690 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:43:30,486 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:43:31,489 INFO spawned: 'rr-server' with pid 2739
+2023-10-12 16:43:32,686 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:44:32,529 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:44:33,532 INFO spawned: 'rr-server' with pid 2827
+2023-10-12 16:44:34,770 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:45:34,598 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:45:35,602 INFO spawned: 'rr-server' with pid 2915
+2023-10-12 16:45:36,809 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:46:36,666 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:46:37,670 INFO spawned: 'rr-server' with pid 3004
+2023-10-12 16:46:38,933 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:47:38,757 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:47:39,761 INFO spawned: 'rr-server' with pid 3092
+2023-10-12 16:47:41,009 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:48:40,822 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:48:41,825 INFO spawned: 'rr-server' with pid 3181
+2023-10-12 16:48:43,030 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:49:42,869 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:49:43,872 INFO spawned: 'rr-server' with pid 3269
+2023-10-12 16:49:45,111 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:50:44,925 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:50:45,928 INFO spawned: 'rr-server' with pid 3357
+2023-10-12 16:50:47,189 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:51:46,984 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:51:47,988 INFO spawned: 'rr-server' with pid 3445
+2023-10-12 16:51:49,244 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:52:49,032 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:52:50,035 INFO spawned: 'rr-server' with pid 3533
+2023-10-12 16:52:51,278 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:53:51,103 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:53:52,107 INFO spawned: 'rr-server' with pid 3621
+2023-10-12 16:53:53,355 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:54:53,180 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:54:54,185 INFO spawned: 'rr-server' with pid 3709
+2023-10-12 16:54:55,455 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:55:55,269 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:55:56,272 INFO spawned: 'rr-server' with pid 3797
+2023-10-12 16:55:57,510 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:56:57,335 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:56:58,338 INFO spawned: 'rr-server' with pid 3885
+2023-10-12 16:56:59,587 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:57:59,388 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:58:00,392 INFO spawned: 'rr-server' with pid 3973
+2023-10-12 16:58:01,650 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 16:59:01,484 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 16:59:02,488 INFO spawned: 'rr-server' with pid 4061
+2023-10-12 16:59:03,781 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:00:03,561 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:00:04,564 INFO spawned: 'rr-server' with pid 4149
+2023-10-12 17:00:05,824 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:01:05,633 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:01:06,636 INFO spawned: 'rr-server' with pid 4238
+2023-10-12 17:01:07,892 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:02:07,695 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:02:08,699 INFO spawned: 'rr-server' with pid 4326
+2023-10-12 17:02:09,993 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:03:09,784 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:03:10,788 INFO spawned: 'rr-server' with pid 4414
+2023-10-12 17:03:12,070 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:04:11,867 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:04:12,871 INFO spawned: 'rr-server' with pid 4502
+2023-10-12 17:04:14,158 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:05:13,956 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:05:14,960 INFO spawned: 'rr-server' with pid 4590
+2023-10-12 17:05:16,192 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:06:16,021 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:06:17,026 INFO spawned: 'rr-server' with pid 4678
+2023-10-12 17:06:18,289 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:07:18,114 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:07:19,118 INFO spawned: 'rr-server' with pid 4767
+2023-10-12 17:07:20,404 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:08:20,200 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:08:21,205 INFO spawned: 'rr-server' with pid 4855
+2023-10-12 17:08:22,422 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:09:22,267 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:09:23,272 INFO spawned: 'rr-server' with pid 4943
+2023-10-12 17:09:24,517 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:10:24,341 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:10:25,344 INFO spawned: 'rr-server' with pid 5031
+2023-10-12 17:10:26,591 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:11:26,390 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:11:27,395 INFO spawned: 'rr-server' with pid 5119
+2023-10-12 17:11:28,641 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:12:28,464 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:12:29,468 INFO spawned: 'rr-server' with pid 5207
+2023-10-12 17:12:30,731 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:13:30,543 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:13:31,547 INFO spawned: 'rr-server' with pid 5295
+2023-10-12 17:13:32,810 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:14:32,609 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:14:33,613 INFO spawned: 'rr-server' with pid 5383
+2023-10-12 17:14:34,876 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:15:34,702 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:15:35,706 INFO spawned: 'rr-server' with pid 5471
+2023-10-12 17:15:36,977 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:16:36,776 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:16:37,779 INFO spawned: 'rr-server' with pid 5559
+2023-10-12 17:16:39,018 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:17:38,828 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:17:39,832 INFO spawned: 'rr-server' with pid 5647
+2023-10-12 17:17:41,041 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:18:40,871 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:18:41,874 INFO spawned: 'rr-server' with pid 5735
+2023-10-12 17:18:43,045 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:19:42,907 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:19:43,911 INFO spawned: 'rr-server' with pid 5824
+2023-10-12 17:19:45,127 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:20:44,969 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:20:45,971 INFO spawned: 'rr-server' with pid 5913
+2023-10-12 17:20:47,177 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:21:47,018 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:21:48,021 INFO spawned: 'rr-server' with pid 6001
+2023-10-12 17:21:49,199 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:22:49,058 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:22:50,060 INFO spawned: 'rr-server' with pid 6089
+2023-10-12 17:22:51,282 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:23:51,089 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:23:52,092 INFO spawned: 'rr-server' with pid 6177
+2023-10-12 17:23:53,341 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:24:53,168 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:24:54,172 INFO spawned: 'rr-server' with pid 6265
+2023-10-12 17:24:55,435 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:25:55,236 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:25:56,240 INFO spawned: 'rr-server' with pid 6353
+2023-10-12 17:25:57,521 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:26:57,320 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:26:58,324 INFO spawned: 'rr-server' with pid 6441
+2023-10-12 17:26:59,568 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:27:59,394 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:28:00,399 INFO spawned: 'rr-server' with pid 6529
+2023-10-12 17:28:01,630 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:29:01,463 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:29:02,468 INFO spawned: 'rr-server' with pid 6617
+2023-10-12 17:29:03,740 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:30:03,527 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:30:04,531 INFO spawned: 'rr-server' with pid 6705
+2023-10-12 17:30:05,807 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:31:05,616 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:31:06,619 INFO spawned: 'rr-server' with pid 6794
+2023-10-12 17:31:07,867 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:32:07,684 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:32:08,688 INFO spawned: 'rr-server' with pid 6882
+2023-10-12 17:32:09,906 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:33:09,724 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:33:10,728 INFO spawned: 'rr-server' with pid 6971
+2023-10-12 17:33:11,955 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:34:11,808 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:34:12,812 INFO spawned: 'rr-server' with pid 7059
+2023-10-12 17:34:14,040 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:35:13,878 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:35:14,882 INFO spawned: 'rr-server' with pid 7148
+2023-10-12 17:35:16,174 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:36:15,968 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:36:16,972 INFO spawned: 'rr-server' with pid 7236
+2023-10-12 17:36:18,215 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:37:18,063 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:37:19,068 INFO spawned: 'rr-server' with pid 7323
+2023-10-12 17:37:20,314 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:38:20,134 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:38:21,138 INFO spawned: 'rr-server' with pid 7411
+2023-10-12 17:38:22,431 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:39:22,218 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:39:23,221 INFO spawned: 'rr-server' with pid 7499
+2023-10-12 17:39:24,454 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:40:24,257 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:40:25,261 INFO spawned: 'rr-server' with pid 7587
+2023-10-12 17:40:26,493 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:41:26,315 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:41:27,318 INFO spawned: 'rr-server' with pid 7676
+2023-10-12 17:41:28,578 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:42:28,376 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:42:29,380 INFO spawned: 'rr-server' with pid 7765
+2023-10-12 17:42:30,694 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:43:30,458 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:43:31,461 INFO spawned: 'rr-server' with pid 7853
+2023-10-12 17:43:32,696 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:44:32,489 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:44:33,491 INFO spawned: 'rr-server' with pid 7942
+2023-10-12 17:44:34,722 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:45:34,549 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:45:35,551 INFO spawned: 'rr-server' with pid 8030
+2023-10-12 17:45:36,781 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:46:36,595 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:46:37,598 INFO spawned: 'rr-server' with pid 8118
+2023-10-12 17:46:38,845 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:47:38,655 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:47:39,658 INFO spawned: 'rr-server' with pid 8207
+2023-10-12 17:47:40,935 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:48:40,714 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:48:41,718 INFO spawned: 'rr-server' with pid 8295
+2023-10-12 17:48:42,966 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:49:42,796 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:49:43,799 INFO spawned: 'rr-server' with pid 8383
+2023-10-12 17:49:45,081 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:50:44,870 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:50:45,874 INFO spawned: 'rr-server' with pid 8471
+2023-10-12 17:50:47,128 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:51:46,949 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:51:47,953 INFO spawned: 'rr-server' with pid 8559
+2023-10-12 17:51:49,215 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:52:49,024 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:52:50,028 INFO spawned: 'rr-server' with pid 8647
+2023-10-12 17:52:51,316 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:53:51,093 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:53:52,096 INFO spawned: 'rr-server' with pid 8735
+2023-10-12 17:53:53,369 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:54:53,156 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:54:54,160 INFO spawned: 'rr-server' with pid 8823
+2023-10-12 17:54:55,384 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:55:55,218 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:55:56,221 INFO spawned: 'rr-server' with pid 8911
+2023-10-12 17:55:57,434 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:56:57,288 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:56:58,292 INFO spawned: 'rr-server' with pid 8999
+2023-10-12 17:56:59,561 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:57:59,370 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:58:00,373 INFO spawned: 'rr-server' with pid 9087
+2023-10-12 17:58:01,646 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 17:59:01,437 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 17:59:02,440 INFO spawned: 'rr-server' with pid 9175
+2023-10-12 17:59:03,655 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:00:03,474 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:00:04,477 INFO spawned: 'rr-server' with pid 9264
+2023-10-12 18:00:05,717 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:01:05,505 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:01:06,509 INFO spawned: 'rr-server' with pid 9352
+2023-10-12 18:01:07,776 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:02:07,568 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:02:08,572 INFO spawned: 'rr-server' with pid 9440
+2023-10-12 18:02:09,854 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:03:09,657 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:03:10,660 INFO spawned: 'rr-server' with pid 9528
+2023-10-12 18:03:11,896 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:04:11,731 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:04:12,735 INFO spawned: 'rr-server' with pid 9617
+2023-10-12 18:04:13,978 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:05:13,784 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:05:14,788 INFO spawned: 'rr-server' with pid 9705
+2023-10-12 18:05:16,090 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:06:15,865 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:06:16,868 INFO spawned: 'rr-server' with pid 9793
+2023-10-12 18:06:18,171 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:07:17,953 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:07:18,955 INFO spawned: 'rr-server' with pid 9881
+2023-10-12 18:07:20,235 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:08:19,984 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:08:20,988 INFO spawned: 'rr-server' with pid 9969
+2023-10-12 18:08:22,250 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:09:22,047 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:09:23,050 INFO spawned: 'rr-server' with pid 10057
+2023-10-12 18:09:24,266 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:10:24,084 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:10:25,087 INFO spawned: 'rr-server' with pid 10145
+2023-10-12 18:10:26,275 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:11:26,124 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:11:27,128 INFO spawned: 'rr-server' with pid 10233
+2023-10-12 18:11:28,409 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:12:28,205 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:12:29,209 INFO spawned: 'rr-server' with pid 10321
+2023-10-12 18:12:30,441 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:13:30,285 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:13:31,288 INFO spawned: 'rr-server' with pid 10410
+2023-10-12 18:13:32,564 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:14:32,339 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:14:33,342 INFO spawned: 'rr-server' with pid 10498
+2023-10-12 18:14:34,575 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:15:34,387 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:15:35,391 INFO spawned: 'rr-server' with pid 10586
+2023-10-12 18:15:36,666 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:16:36,465 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:16:37,467 INFO spawned: 'rr-server' with pid 10674
+2023-10-12 18:16:38,672 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:17:38,507 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:17:39,511 INFO spawned: 'rr-server' with pid 10762
+2023-10-12 18:17:40,754 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:18:40,574 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:18:41,578 INFO spawned: 'rr-server' with pid 10850
+2023-10-12 18:18:42,850 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:19:42,644 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:19:43,647 INFO spawned: 'rr-server' with pid 10938
+2023-10-12 18:19:44,902 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:20:44,678 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:20:45,682 INFO spawned: 'rr-server' with pid 11027
+2023-10-12 18:20:46,975 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:21:46,763 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:21:47,766 INFO spawned: 'rr-server' with pid 11115
+2023-10-12 18:21:49,014 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:22:48,836 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:22:49,840 INFO spawned: 'rr-server' with pid 11203
+2023-10-12 18:22:51,099 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:23:50,906 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:23:51,910 INFO spawned: 'rr-server' with pid 11291
+2023-10-12 18:23:53,161 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:24:52,980 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:24:53,984 INFO spawned: 'rr-server' with pid 11379
+2023-10-12 18:24:55,246 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:25:55,054 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:25:56,058 INFO spawned: 'rr-server' with pid 11467
+2023-10-12 18:25:57,360 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:26:57,127 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:26:58,131 INFO spawned: 'rr-server' with pid 11554
+2023-10-12 18:26:59,391 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:27:59,200 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:28:00,203 INFO spawned: 'rr-server' with pid 11642
+2023-10-12 18:28:01,483 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:29:01,270 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:29:02,273 INFO spawned: 'rr-server' with pid 11730
+2023-10-12 18:29:03,562 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:30:03,305 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:30:04,307 INFO spawned: 'rr-server' with pid 11818
+2023-10-12 18:30:05,510 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:31:05,347 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:31:06,351 INFO spawned: 'rr-server' with pid 11906
+2023-10-12 18:31:07,606 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:32:07,429 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:32:08,433 INFO spawned: 'rr-server' with pid 11994
+2023-10-12 18:32:09,656 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:33:09,468 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:33:10,471 INFO spawned: 'rr-server' with pid 12082
+2023-10-12 18:33:11,732 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:34:11,533 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:34:12,536 INFO spawned: 'rr-server' with pid 12170
+2023-10-12 18:34:13,814 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:35:13,592 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:35:14,596 INFO spawned: 'rr-server' with pid 12258
+2023-10-12 18:35:15,789 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:36:15,627 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:36:16,631 INFO spawned: 'rr-server' with pid 12346
+2023-10-12 18:36:17,894 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:37:17,701 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:37:18,703 INFO spawned: 'rr-server' with pid 12435
+2023-10-12 18:37:19,990 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:38:19,763 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:38:20,768 INFO spawned: 'rr-server' with pid 12524
+2023-10-12 18:38:22,030 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:39:21,838 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:39:22,843 INFO spawned: 'rr-server' with pid 12612
+2023-10-12 18:39:24,146 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:42:12,951 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-12 18:42:12,953 INFO supervisord started with pid 7
+2023-10-12 18:42:13,955 INFO spawned: 'rr-server' with pid 8
+2023-10-12 18:42:15,257 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:43:14,988 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:43:15,991 INFO spawned: 'rr-server' with pid 97
+2023-10-12 18:43:17,225 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:43:54,240 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-12 18:43:54,242 INFO supervisord started with pid 7
+2023-10-12 18:43:55,245 INFO spawned: 'rr-server' with pid 8
+2023-10-12 18:43:56,510 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:44:56,300 WARN exited: rr-server (exit status 1; not expected)
+2023-10-12 18:44:57,305 INFO spawned: 'rr-server' with pid 96
+2023-10-12 18:44:58,701 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:47:13,533 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-12 18:47:13,534 INFO supervisord started with pid 7
+2023-10-12 18:47:14,538 INFO spawned: 'rr-server' with pid 8
+2023-10-12 18:47:15,937 INFO success: rr-server entered RUNNING state, process has stayed up for > than 1 seconds (startsecs)
+2023-10-12 18:53:45,828 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-12 18:53:45,828 INFO supervisord started with pid 7
+2023-10-13 12:40:19,722 CRIT Supervisor is running as root.  Privileges were not dropped because no user is specified in the config file.  If you intend to run as root, you can set user=root in the config file to avoid this message.
+2023-10-13 12:40:19,723 INFO supervisord started with pid 7
