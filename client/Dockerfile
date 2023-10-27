@@ -57,5 +57,8 @@ RUN apt-get install -y supervisor
 # Копирование конфигурационного файла supervisord для воркеров очереди
 COPY supervisord.conf /etc/supervisor/conf.d/supervisord.conf
 
+#
+COPY cron.conf /etc/cron.d
+
 # Запуск сервисов контейнера
 CMD ["supervisord", "-c", "/etc/supervisor/conf.d/supervisord.conf"]
